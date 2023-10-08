@@ -1,6 +1,6 @@
 ![image](example1.png) 
 
-In this example the working directery is home. This is shown by the pwd command. After typing the cd command with no arguments, the working directory haven't changed and there is no output. We can see that by the following pwd command. There was no error but the command didn't do anything.
+In this example the working directery is home. This is shown by the pwd command. After typing the cd command with no arguments, the working directory hasn't changed and there is no output. We can see that by the following pwd command. There was no error but the command didn't do anything.
 
 ![image](example2.png)
 
