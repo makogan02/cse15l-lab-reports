@@ -10,6 +10,26 @@ In this example the working directory was "/home" and I changed it to "/home/lec
 
 In this example the working directory is Home/Lecture1. The output I got indicated I had en error because I can't make a file a working directory.
 
-![image](example14.png)
+![image](example4.png)
 
-In this example, the command "ls" shows what files are inside a directory. Because the working directiory is Home/Lecture1, the output showed what's inside what files are inside the direcotry 
+The command "ls" shows what files are inside a directory. In this example, no arguments were provided for the "ls" command and because the working directiory is Home/Lecture1, the output showed what's inside Home/Lecture1. There was no error.
+
+![image](example5.png)
+
+In this example, I used the "ls" command to show what's inside the directory Home/Lecture1/messages. The output showed the language files that are inside the folder. The working directory was Home/Lecture1 and there was no error.
+
+![image](example6.png)
+
+In this example I used the "ls" command on a file. The command shows what files or direcctories are inside a directory but because I used it on a file the output was just the location of the file. The working directory was Home/Lecture1 and the output was not en error.
+
+![image](example7.png)
+
+The command "cat" prints out what's inside a file. In this example, I haven't provided "cat" with an argument and therefore I couldn't execute the command. I had to terminate it. The working directory was Home/Lecture1 and there was no output and no error message.
+
+![image](example8.png)
+
+In this example I used the "cat" command on a directory, and since the directory just conatins more directories and files, the command can't print what's inside the directory. The working directory was /Home/Lecture1 and there was an error message because the "cat" command doesn't work on a directory. 
+
+![image](example9.png)
+
+In this example I used the "cat" command on a file and the output was the text that was inside that file because cat prints out what's inside a file. THe working directory was /Home/Lecture1 and there was no error message.
