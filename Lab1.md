@@ -24,7 +24,7 @@ In this example, I used the "ls" command to show what's inside the directory Hom
 
 In this example I used the "ls" command on a file. The command shows what files or direcctories are inside a directory but because I used it on a file the output was just the location of the file. In the first example, because we used an absolute path the "ls" command returns the absolute path. In the second example, because I used a relative path the "ls" command returns the absolute path. The working directory was "Home/Lecture1" and the output was not an error.
 
-![image](example7.png)
+![image](example.png)
 
 The command "cat" prints out what's inside a file. In this example, I haven't provided "cat" with an argument. I tried to keep typing and pressing enter and the cat command kept printing what I typed each time after I pressed enter until I terminated the command. The working directory was Home/Lecture1 and there was no output and no error message.
 
