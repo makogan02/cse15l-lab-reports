@@ -37,7 +37,7 @@ Input that induces failure
 
 
 
-![image](symptom 2.png)
+![image](Symptom 2.png)
 
 
 
