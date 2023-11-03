@@ -1,4 +1,4 @@
-A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
+Markup: * A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
 
 ```ruby
 @Test 
@@ -42,3 +42,27 @@ Input that induces failure
 
 
 The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+
+Before
+```ruby
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+
+After
+```ruby
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length/2; i += 1) {
+      int temp = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp;
+    }
+  }
+
+
+```
+
+
