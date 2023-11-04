@@ -1,4 +1,4 @@
-# Part 1#
+# Part 1 #
 
 * A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
 
@@ -85,6 +85,7 @@ The first issue in the code was that we switched the first half of the list with
 
 # Part 2 #
 
+## researching the commands ##
 For this part, I asked chat gpt: "What are some command-line options for grep with examples". Here is the output that I used of what he gave me. 
 
 ```ruby
@@ -107,12 +108,49 @@ grep -c "pattern" file.txt
 
 Here are the two files I will use as examples for every command:
 
-TestGrep.txt			TestGrep2.txt
-```ruby				```ruby
-Apples and oranges		tell me
+TestGrep.txt			
+```ruby				
+Apples and oranges		
 duoapples
 apples and oranges
 oranges
-```				```
+```
+
+
+```ruby
+eating aples is healthy
+apple
+apples
+TastyApples
+```
+
+## Applying the commands with examples ##
+
+* The first command-line is -i. This makes grep case insensitive as grep without a command line is case sensitive. Here is grep -i applied to both files:
+
+![image](grep1.png)
+
+![image](grep2.png)
+
+We can see from this example that when we used -i, it printed all the lines that contained apples regardless of capital letters. We can see that that's not the case for regular grep,
+
+* The second command-line is -n. It displays the line numbers that match the string as well as the lines themselves. Here is grep -n applied to both files.
+
+![image](grep34.png)
+
+* The third command-line is -w. This makes grep only return words that much the string provided. This means that unless the line has the string as a whole word, it will not return the line. Here is grep -w applied to both files:
+
+![image](grep5.png)
+![image](grep6.png)
+
+As we can see, for TestGrep.txt, the grep only returned "apples and oranges" and not "duoapples". For TestGrep2.txt the grep only returned "apple" and not "apples".
+
+
+* The last command-line is -c which displays the count of matching lines. Here is grep -c applied to both files.
+
+![image](grep7.png)
+![image](grep8.png)
+  
+
 
 
