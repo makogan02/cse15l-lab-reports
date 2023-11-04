@@ -38,8 +38,7 @@ Input that doesn't include failure
 Input that induces failure
 
 
-
-![image](Symptom2.png)
+![image](symptom2.png)
 
 
 
@@ -116,7 +115,7 @@ apples and oranges
 oranges
 ```
 
-
+TestGrep2.txt
 ```ruby
 eating aples is healthy
 apple
