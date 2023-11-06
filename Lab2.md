@@ -20,7 +20,7 @@ The argument for the method is the url which is the url the user provides. The s
 
 * How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
-A temporary string parameter('parameters') gets the value that's right after the '=' in the query. This value will be "Hello". The '+' in the string are replaced by spaces(nothing happens since there are no spaces) and the result is stored in a new temporary string('text'). A new row, row number(row = 2), and the previous temporary string('text') are added to a new temporary string('new_line') using 'String.format'. Now the temporary string('new_line') is '"1. Hello\n"'. s is '"1. Hello\n"' since s was empty before we appended it. The string is appended to 's' and 's' is returned. The 'row' variable gets incremented before 's' is returned. Now 'row = 2'. 
+A temporary string list parameter('parameters') gets the value that's right after the '=' in the query as its second element of the list and what's before as its first element. The second element in the list has the value "Hello". The '+' in the string(second element of the string list) are replaced by spaces(nothing happens since there are no spaces) and the result is stored in a new temporary string('text'). A new row, row number(row = 2), and the previous temporary string('text') are added to a new temporary string('new_line') using 'String.format'. Now the temporary string('new_line') is '"1. Hello\n"'. 's' is also '"1. Hello\n"' since s was empty before we appended it. The string is appended to 's' and 's' is returned. The 'row' variable gets incremented before 's' is returned. Now 'row = 2'. 
 
 
 
@@ -36,7 +36,7 @@ The argument for the method is 'url' which gets the new URL inputted. The value 
 
 * How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
-A temporary string parameter('parameters') gets the value that's right after the '=' in the query. This value will be "How+are+you". The '+' in the string are replaced by spaces and the result, "How are you", is stored in a new temporary string('text'). A new row, row number(row = 2"), and the previous temporary string('text') are added to a new temporary string('new_line') using 'String.format'. Now the temporary string('new_line') is '"2. How are you\n"'. The string is appended to 's' and 's' is returned. s is now '"1. Hello\n2. How are you\n"'. The 'row' variable gets incremented before 's' is returned. Now 'row = 2'
+A temporary string parameter('parameters') gets the value that's right after the '=' in the query as its second element of the list and what's before as its first element. The value of the second string element will be "How+are+you". The '+' in the string are replaced by spaces and the result, "How are you", is stored in a new temporary string('text'). A new row, row number(row = 2"), and the previous temporary string('text') are added to a new temporary string('new_line') using 'String.format'. Now the temporary string('new_line') is '"2. How are you\n"'. The string is appended to 's'. 's' is now '"1. Hello\n2. How are you\n"'. The 'row' variable gets incremented and 's' is returned. 
 
 
 
