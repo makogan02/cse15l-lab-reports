@@ -36,7 +36,7 @@ The argument for the method is `url` which gets the new URL inputted. The value 
 
 * How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
-A temporary string list parameter(`parameters`) gets the value that's right after the `=` in the query as its second element of the list and what's before as its first element. The value of the second string element will be "How+are+you". The `+` in the string are replaced by spaces and the result, "How are you", is stored in a new temporary string(`text`). A new row, row number(`row = 2`), and the previous temporary string(`text`) are added to a new temporary string(`new_line`) using `String.format`. Now the temporary string(`new_line`) is `"2. How are you\n"`. The string is appended to `s`. `s` is now `"1. Hello\n2. How are you\n"`. The `row` variable gets incremented and `s` is returned. Now 'row = 3'.
+A temporary string list parameter(`parameters`) gets the value that's right after the `=` in the query as its second element of the list and what's before as its first element. The value of the second string element will be "How+are+you". The `+` in the string are replaced by spaces and the result, "How are you", is stored in a new temporary string(`text`). A new row, row number(`row = 2`), and the previous temporary string(`text`) are added to a new temporary string(`new_line`) using `String.format`. Now the temporary string(`new_line`) is `"2. How are you\n"`. The string is appended to `s`. `s` is now `"1. Hello\n2. How are you\n"`. The `row` variable gets incremented and `s` is returned. Now `row = 3`.
 
 
 
