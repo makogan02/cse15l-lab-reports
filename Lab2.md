@@ -16,7 +16,7 @@ The `HandleRequest` method is being called.
 
 * What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
-The argument for the method is the url which is the url the user provides. The string parameter `String s`, starts as an empty string and it`s what I return at the end of the method. The parameter `int row`, keeps track of the number of rows and it`s value at the beginning is 1.
+The argument for the method is the url which is the url the user provides. The string parameter `String s`, starts as an empty string and it is what gets returned at the end of the method. The parameter `int row`, keeps track of the number of rows and it`s value at the beginning is 1.
 
 * How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
