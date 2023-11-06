@@ -41,6 +41,7 @@ A temporary string list parameter(`parameters`) gets the value that's right afte
 
 
 # Part 2 #
+Screenshots for:
 
 * The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)
 
@@ -58,5 +59,7 @@ A temporary string list parameter(`parameters`) gets the value that's right afte
 
 
 # Part 3 #
+
+* In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before.
 
 I learned that I can create a keygen that will automatically be called when I try to log in to the server. I also found it interesting that I can see what files there are in a computer that I am connected to using ls. Even though it's a bit beyond the scope of this course I also learned that we need to have a server class and a URLHandler to run a server. 
