@@ -113,19 +113,25 @@ TastyApples
 
 ## Applying the commands with examples ##
 
-* The first command-line is -i. This makes grep case insensitive as grep without a command line is case sensitive. Here is grep -i applied to both files:
+* The first command-line is -i. This makes grep case insensitive as grep at default is case sensitive. Chatgpt states: "Case-Insensitive Search (-i): This option makes the search case-insensitive. grep -i "pattern" file.txt".
+Here is grep -i applied to both files:
 
 ![image](grep1.png)
 
 ![image](grep2.png)
 
-We can see from this example that when we used -i, it printed all the lines that contained apples regardless of capital letters. We can see that that's not the case for regular grep,
+We can see from this example that when we used -i, it printed all the lines that contained apples regardless of capital letters. 
+We can see that that's not the case for regular grep,
 
-* The second command-line is -n. It displays the line numbers that match the string as well as the lines themselves. Here is grep -n applied to both files.
+* The second command-line is -n. It displays the line numbers that match the string as well as the lines themselves. Chatgpt states: "Display Line Numbers (-n):
+This option shows the line numbers of matching lines. grep -n "pattern" file.txt"
+Here is grep -n applied to both files.
 
 ![image](grep34.png)
 
-* The third command-line is -w. This makes grep only return words that much the string provided. This means that unless the line has the string as a whole word, it will not return the line. Here is grep -w applied to both files:
+* The third command-line is -w. This makes grep only return words that much the string provided. This means that unless the line has the string as a whole word, it will not return the line.
+Chatgpt states: "Search for Whole Words (-w): This option only matches whole words, not substrings. grep -w "word" file.txt"
+Here is grep -w applied to both files:
 
 ![image](grep5.png)
 ![image](grep6.png)
@@ -133,7 +139,9 @@ We can see from this example that when we used -i, it printed all the lines that
 As we can see, for TestGrep.txt, the grep only returned "apples and oranges" and not "duoapples". For TestGrep2.txt the grep only returned "apple" and not "apples".
 
 
-* The last command-line is -c which displays the count of matching lines. Here is grep -c applied to both files.
+* The last command-line is -c which displays the count of matching lines. Chatgpt states: "Count Matching Lines (-c): This option displays the count of matching lines instead of the lines themselves.
+  grep -c "pattern" file.txt"
+  Here is grep -c applied to both files.
 
 ![image](grep7.png)
 ![image](grep8.png)
