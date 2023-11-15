@@ -27,19 +27,7 @@ public void testReverseInPlace1() {
 
 * The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
 
-Input that doesn't include failure
-
-
-
 ![image](symptom1.png)
-
-
-
-Input that induces failure
-
-
-![image](symptom2.png)
-
 
 
 * The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
