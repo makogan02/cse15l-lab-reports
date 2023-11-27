@@ -24,7 +24,7 @@ I typed "vim ListExamples.java" and pressed &lt;enter&gt;. I typed "/index1" to 
 
 ## Step 8 ## 
 
-I pressed <up><up><up><up and the command "bash test.sh" was 4 up in the search history. I pressed &lt;enter&gt; and the tests passed.
+I pressed <up><up><up><up> and the command "bash test.sh" was 4 up in the search history. I pressed &lt;enter&gt; and the tests passed.
 
 ![image](step8.png)
 
