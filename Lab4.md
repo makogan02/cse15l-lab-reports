@@ -18,7 +18,7 @@ I typed "bash test.sh" and pressed &lt;enter&gt; but I realized I need to change
 ![image](step6.png)
 
 ## Step 7 ##
-I typed "vim ListExamples.java" and pressed &lt;enter&gt;. I typed "/index1" to search for all instances of index1 in the file. I then pressed &lt;enter&gt;<n><n><n><n><n><n><n><n>. This way I navigated through all the instances of "index1" in the file. The instance I needed was 8 instances down from the first appearence of "index1". I then pressed <l><l><l><l><l> until the cursos was on 1".  I then pressed <x> to delete the character "1" and pressed <i> to entr insert mode. Finally I pressed <2> to insert "2" and pressed <esc> to go out of insert mode. I then typed ":wq" and pressed &lt;enter&gt; to save the changes and exit vim.
+I typed "vim ListExamples.java" and pressed &lt;enter&gt;. I typed "/index1" to search for all instances of index1 in the file. I then pressed &lt;enter&gt;&lt;n&gt;&lt;n&gt;&lt;n&gt;&lt;n&gt;&lt;n&gt;&lt;n&gt;&lt;n&gt;&lt;n&gt;. This way I navigated through all the instances of "index1" in the file. The instance I needed was 8 instances down from the first appearance of "index1". I then pressed <l><l><l><l><l> until the cursos was on 1".  I then pressed <x> to delete the character "1" and pressed <i> to entr insert mode. Finally I pressed <2> to insert "2" and pressed <esc> to go out of insert mode. I then typed ":wq" and pressed &lt;enter&gt; to save the changes and exit vim.
 
 ![image](step7.png)
 
