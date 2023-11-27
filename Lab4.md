@@ -13,7 +13,7 @@ I typed "git clone " and pressed <windows key + v> to access my clipboard histor
 ![image](step5.png)
 
 ## Step 6 ##
-I typed "bash test.sh" and pressed &lt;enter&gt; but I realized I need to change the working directory first. I therefore typed "cd l" and pressed <tab> to auto fill "lab7/" and pressed &lt;enter&gt;. Since I already typed the command "bash test.sh" before, I pressed <up><up> and the command "bash test.sh" was 2 up in the search history and I pressed &lt;enter&gt; again.
+I typed "bash test.sh" and pressed &lt;enter&gt; but I realized I need to change the working directory first. I therefore typed "cd l" and pressed <tab> to auto fill "lab7/" and pressed &lt;enter&gt;. Since I already typed the command "bash test.sh" before, I pressed &lt;up&gt;&lt;up&gt; and the command "bash test.sh" was 2 up in the search history and I pressed &lt;enter&gt; again.
 
 ![image](step6.png)
 
@@ -24,7 +24,7 @@ I typed "vim ListExamples.java" and pressed &lt;enter&gt;. I typed "/index1" to 
 
 ## Step 8 ## 
 
-I pressed <up><up><up><up> and the command "bash test.sh" was 4 up in the search history. I pressed &lt;enter&gt; and the tests passed.
+I pressed &lt;up&gt;&lt;up&gt;&lt;up&gt;&lt;up&gt; and the command "bash test.sh" was 4 up in the search history. I pressed &lt;enter&gt; and the tests passed.
 
 ![image](step8.png)
 
