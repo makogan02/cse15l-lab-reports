@@ -1,6 +1,6 @@
 # Lab 4 #
 
-**Note:** While doing this assignmentr my internet crashed and I was disconnected from the server multiple times. Therefore some images don't include previous step's code. 
+**Note:** While doing this assignment my internet crashed and I was disconnected from the server multiple times. Therefore some images don't include the previous step's code. 
 
 ## Step 4  ##
 I pressed <ctrl+v> to paste "ssh cs15lfa23qy@ieng6.ucsd.edu" since I had it in my clipboard and pressed &lt;enter&gt;. This connected me to the remote server
