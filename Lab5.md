@@ -104,10 +104,12 @@ public class ArrayExamples {
 
 **Command line ran to trigger the bug**
 
-~~~ bash RunTests.sh ~~~
+~~~
+bash RunTests.bash
+~~~
 
 
-** A description of what to edit to fix the bug**
+**A description of what to edit to fix the bug**
 
 -Change the for loop to run up to the middle of the list. "for(int i = 0; i < arr.length/2; i += 1)" instead of "for(int i = 0; i < arr.length; i += 1)"
 -add the lines "int temp = arr[I];" and "arr[arr.length - i - 1] = temp;"
