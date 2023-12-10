@@ -156,7 +156,7 @@ grep -n "done" chapter-5.txt
 928:                appears to have done the most. He terminated Shehhi's apartment lease, telling the  
 ~~~
 
-As we can see the command printed the line number that contain the pattern "done. This is very useful as the lines might be long and we don't want to see the contents of the entire line, only the line number.
+As we can see the command printed the line number that contain the pattern "done". This is very useful as the lines might be long and we don't want to see the contents of the entire line, only the line number.
 
 * The third command-line is -w. This makes grep only return words that match the string provided. This means that unless the line has the string as a whole word, it will not return the line.
 Chatgpt states: "Search for Whole Words (-w): This option only matches whole words, not substrings. grep -w "word" file.txt".
