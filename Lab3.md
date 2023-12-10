@@ -99,11 +99,11 @@ grep -c "pattern" file.txt
 * The first command-line is -i. This makes grep case insensitive as grep at default is case sensitive. Chatgpt states: "Case-Insensitive Search (-i): This option makes the search case-insensitive. grep -i "pattern" file.txt". Here is grep -i applied to two files:
 
 
-~~~
+```ruby
 grep -i "hard" chapter-1.txt
     The passengers continued their assault and at 10:02:23, a hijacker said, "Pull it down! Pull it down!"The hijackers remained at the controls but must have judged that the passengers were only seconds from overcoming them. The airplane headed down; the control wheel was turned hard to the right. The airplane rolled onto its back, and one of the hijackers began shouting "Allah is the greatest. Allah is the greatest." With the sounds of the passenger counterattack continuing, the aircraft plowed into an empty field in Shanksville, Pennsylvania, at 580 miles per hour, about 20 minutes' flying time from Washington, D.C.
     At the White House, the video teleconference was conducted from the Situation Room by Richard Clarke, a special assistant to the president long involved in counterterrorism. Logs indicate that it began at 9:25 and included the CIA; the FBI; the departments of State, Justice, and Defense; the FAA; and the White House shelter. The FAA and CIA joined at 9:40. The first topic addressed in the White House video teleconference-at about 9:40-was the physical security of the President, the White House, and federal agencies. Immediately thereafter it was reported that a plane had hit the Pentagon. We found no evidence that video teleconference participants had any prior information that American 77 had been hijacked and was heading directly toward Washington. Indeed, it is not clear to us that the video teleconference was fully under way before 9:37, when the Pentagon was struck.
-~~~
+```
 
 ~~~
 grep -i "early" chapter-2.txt
